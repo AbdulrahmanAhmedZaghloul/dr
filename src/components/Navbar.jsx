@@ -75,7 +75,7 @@ const Navbar = () => {
                             {dropdownOpen && (
                                 <div className="absolute top-3/4 bg-white rounded-xl mt-2 -left-20  text-sm shadow-lg">
                                     <div className=" w-72 pt-4">
-                                        <div className="gro lg:text-[20px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
+                                        <div className="gro lg:text-[14px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
                                             زراعه العدسات
                                             <i className="fa-solid mx-4 fa-caret-up fa-rotate-270"></i>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
                                             </div>
                                         </div>
 
-                                        <div className="gro lg:text-[20px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
+                                        <div className="gro lg:text-[14px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
                                             تجميل الجفون
                                             <i className="fa-solid mx-4 fa-caret-up fa-rotate-270"></i>
                                             <div className="hidden group-hover w-80  z-10 transition-opacity bg-white p-3 shadow-lg rounded-lg absolute -left-[100%] top-[15%]">
@@ -105,7 +105,7 @@ const Navbar = () => {
                                             </div>
                                         </div>
 
-                                        <div className="gro lg:text-[20px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
+                                        <div className="gro lg:text-[14px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
                                             جفاف العين
                                             <i className="fa-solid mx-4 fa-caret-up fa-rotate-270"></i>
                                             <div className="hidden group-hover w-80 z-10 transition-opacity bg-white p-3 shadow-lg rounded-lg absolute -left-[100%] top-1/4">
@@ -118,7 +118,7 @@ const Navbar = () => {
                                             </div>
                                         </div>
 
-                                        <div className="gro lg:text-[20px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
+                                        <div className="gro lg:text-[14px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
                                             المياه البيضاء
                                             <i className="fa-solid mx-4 fa-caret-up fa-rotate-270"></i>
                                             <div className="hidden group-hover w-80 transition-opacity bg-white p-3 shadow-lg rounded-lg absolute -left-[100%] top-1/4">
@@ -137,7 +137,7 @@ const Navbar = () => {
                                             </div>
                                         </div>
 
-                                        <div className="gro lg:text-[20px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
+                                        <div className="gro lg:text-[14px] md:text-base sm:text-base text-bas font-extrabold px-7 p-3 cursor-pointer">
                                             عمليات تصحيح الابصار
                                             <i className="fa-solid mx-4 fa-caret-up fa-rotate-270"></i>
                                             <div className="hidden group-hover w-80 z-0 transition-opacity bg-white p-3 shadow-lg rounded-lg absolute -left-[100%] top-1/4">
@@ -158,7 +158,7 @@ const Navbar = () => {
                                                 </Link>
                                             </div>
                                         </div>
-                                        <div className="lg:text-[20px] md:text-base sm:text-base text-bas  font-extrabold px-7 p-3   cursor-pointer">
+                                        <div className="lg:text-[14px] md:text-base sm:text-base text-bas  font-extrabold px-7 p-3   cursor-pointer">
                                             الفحص الدوري
                                         </div>
                                     </div>
@@ -191,22 +191,22 @@ const Navbar = () => {
 
                 {/* القائمة الجانبية للهواتف */}
                 {isOpen && (
-                    <div className="lg:hidden bg-white">
+                    <div className="lg:hidden bg-white overflow-y-auto h-screen">
                         <Link
                             to="/"
-                            className="block px-4 py-2 bg-white transition duration-200">
+                            className="block px-4 py-2 text-[14px] bg-white transition duration-200">
                             الرئيسية
                         </Link>
                         <Link
                             to="/"
-                            className="block px-4 py-2 bg-white transition duration-200">
+                            className="block px-4 py-2 text-[14px] bg-white transition duration-200">
                             عن الدكتور
                         </Link>
 
                         {/* الخدمات */}
                         <div className="group">
                             <div
-                                className="block px-4 py-2 bg-white transition duration-200 cursor-pointer"
+                                className="block px-4 py-2 text-[14px] bg-white transition duration-200 cursor-pointer"
                                 onClick={() => setDropdownOpen(!dropdownOpen)}
                             >
                                 الخدمات
@@ -218,7 +218,7 @@ const Navbar = () => {
                                     <div className="group w-72">
                                         <div
                                             onClick={() => setDropdownOpen1(!dropdownOpen1)}
-                                            className="px-4 lg:text-[20px] md:text-base 
+                                            className="px-4 lg:text-[14px] md:text-base 
                                             sm:text-base text-bas font-extrabold py-2 p-6
                                             cursor-pointer">
                                             زراعه العدسات
@@ -239,7 +239,7 @@ const Navbar = () => {
                                         </div>
                                         <div
                                             onClick={() => setDropdownOpen2(!dropdownOpen2)}
-                                            className="px-4 lg:text-[20px] md:text-base 
+                                            className="px-4 lg:text-[14px] md:text-base 
                                             sm:text-base text-bas font-extrabold py-2 p-6  
                                              cursor-pointer">
                                             تجميل الجفون
@@ -259,7 +259,7 @@ const Navbar = () => {
                                         </div>
                                         <div
                                             onClick={() => setDropdownOpen3(!dropdownOpen3)}
-                                            className="px-4 lg:text-[20px] md:text-base sm:text-base text-bas font-extrabold py-2 p-6   cursor-pointer">
+                                            className="px-4 lg:text-[14px] md:text-base sm:text-base text-bas font-extrabold py-2 p-6   cursor-pointer">
                                             جفاف العين
                                             <i className="fa-solid mx-4 fa-caret-up fa-rotate-180"></i>
                                             {dropdownOpen3 && (
@@ -276,7 +276,7 @@ const Navbar = () => {
                                         </div>
                                         <div
                                             onClick={() => setDropdownOpen4(!dropdownOpen4)}
-                                            className="px-4 lg:text-[20px] md:text-base sm:text-base text-bas font-extrabold py-2 p-6   cursor-pointer">
+                                            className="px-4 lg:text-[14px] md:text-base sm:text-base text-bas font-extrabold py-2 p-6   cursor-pointer">
                                             المياه البيضاء
                                             <i className="fa-solid mx-4 fa-caret-up fa-rotate-180"></i>
                                             {dropdownOpen4 && (
@@ -298,7 +298,7 @@ const Navbar = () => {
                                         </div>
                                         <div
                                             onClick={() => setDropdownOpen5(!dropdownOpen5)}
-                                            className="px-4 lg:text-[20px] md:text-base 
+                                            className="px-4 lg:text-[14px] md:text-base 
                                          sm:text-base text-bas font-extrabold py-2 p-6  
                                           cursor-pointer">
                                             عمليات تصحيح الابصار
@@ -323,7 +323,7 @@ const Navbar = () => {
                                                 </div>
                                             )}
                                         </div>
-                                        <div className="px-4 lg:text-[20px] md:text-base sm:text-base text-bas font-extrabold py-2 p-6   cursor-pointer">
+                                        <div className="px-4 lg:text-[14px] md:text-base sm:text-base text-bas font-extrabold py-2 p-6   cursor-pointer">
                                             الفحص الدوري
                                         </div>
 
@@ -334,25 +334,25 @@ const Navbar = () => {
 
                         <Link
                             to="/"
-                            className="block px-4 py-2 bg-white transition duration-200"
+                            className="block px-4 py-2 text-[14px] bg-white transition duration-200"
                         >
                             فيديوهات
                         </Link>
                         <Link
                             to="/"
-                            className="block px-4 py-2 bg-white transition duration-200"
+                            className="block px-4 py-2 text-[14px] bg-white transition duration-200"
                         >
                             المقالات
                         </Link>
                         <Link
                             to="/"
-                            className="block px-4 py-2 bg-white transition duration-200"
+                            className="block px-4 py-2 text-[14px] bg-white transition duration-200"
                         >
                             اتصل بنا
                         </Link>
                         <Link
                             to="/"
-                            className="block px-4 py-2 bg-white transition duration-200"
+                            className="block px-4 py-2 text-[14px] bg-white transition duration-200"
                         >
                             احجز الآن
                         </Link>
