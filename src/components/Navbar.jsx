@@ -56,7 +56,7 @@ const Navbar = () => {
                     </div>
                     {/* قائمة الروابط */}
                     <div className="hidden lg:flex">
-                        <Link to="/" className="hover:text-gray-400 mx-5 transition duration-200">
+                        <Link to="/" className="hover:text-gray-400  transition duration-200">
                             الرئيسية
                         </Link>
                         <Link to="/" className="hover:text-gray-400 mx-5 transition duration-200">
