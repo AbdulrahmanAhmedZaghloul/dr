@@ -2,7 +2,9 @@ body {
     font-family: 'Cairo', sans-serif;
 }
 
-
+.hid{
+    display: none;
+}
 
 .gro:hover .group-hover {
     display: block;

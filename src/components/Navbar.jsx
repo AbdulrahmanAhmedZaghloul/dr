@@ -31,24 +31,27 @@ const Navbar = () => {
     return (
         <>
             <nav className=" md:pb-4 sm:pb-4 lg:p-0 p-0 fixed bg-white left-0 right-0 top-0 z-50  lg:text-[14px] md:text-sm sm:text-base text-base font-black shadow-md">
-                <div className={` hidden lg:flex mx-auto bg-[rgb(49,76,91)] py-2 transition-all duration-300  ${isHidden ? 'hidden' : 'flex'}`}>
-                    <div className="flex container mx-auto text-white justify-evenly">
-                        <div className="text-sm">
-                            <i className="fa-brands mx-3 fa-facebook" />
-                            <i className="fa-brands mx-3 fa-youtube" />
-                            <i className="fa-brands mx-3 fa-instagram" />
-                            <i className="fa-brands mx-3 fa-twitter" />
-                        </div>
-                        <div className="text-sm">
-                            <i className="mx-3 fa-solid fa-phone text-sm fa-rotate-270"></i>
-                            <span className="tracking-widest font-bold">01118886541</span>
-                        </div>
-                        <div className="text-sm">
-                            <i className="mx-3 fa-brands fa-whatsapp text-lg"></i>
-                            <span className="tracking-widest font-bold">01118886541</span>
+                <div className="">
+                    <div className={`hidden lg:flex mx-auto bg-[rgb(49,76,91)] py-2 transition-all duration-300  ${isHidden ? 'hid' : 'flex'}`}>
+                        <div className="flex container mx-auto text-white justify-evenly">
+                            <div className="text-sm">
+                                <i className="fa-brands mx-3 fa-facebook" />
+                                <i className="fa-brands mx-3 fa-youtube" />
+                                <i className="fa-brands mx-3 fa-instagram" />
+                                <i className="fa-brands mx-3 fa-twitter" />
+                            </div>
+                            <div className="text-sm">
+                                <i className="mx-3 fa-solid fa-phone text-sm fa-rotate-270"></i>
+                                <span className="tracking-widest font-bold">01118886541</span>
+                            </div>
+                            <div className="text-sm">
+                                <i className="mx-3 fa-brands fa-whatsapp text-lg"></i>
+                                <span className="tracking-widest font-bold">01118886541</span>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div className="mx-auto px-4 py-3 flex items-center justify-start">
                     {/* الشعار */}
                     <div className="md:w-[50%] sm:w-[50%] lg:w-[24%] w-[50%]">
