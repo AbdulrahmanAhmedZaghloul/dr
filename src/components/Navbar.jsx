@@ -30,7 +30,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className=" md:pb-4 sm:pb-4 lg:p-0 p-0 fixed bg-white left-0 right-0 top-0 z-50  lg:text-[16px] md:text-sm sm:text-base text-base font-extrabold shadow-md">
+            <nav className=" md:pb-4 sm:pb-4 lg:p-0 p-0 fixed bg-white left-0 right-0 top-0 z-50  lg:text-[14px] md:text-sm sm:text-base text-base font-black shadow-md">
                 <div className={` hidden lg:flex mx-auto bg-[rgb(49,76,91)] py-2 transition-all duration-300  ${isHidden ? 'hidden' : 'flex'}`}>
                     <div className="flex container mx-auto text-white justify-evenly">
                         <div className="text-sm">
@@ -56,10 +56,10 @@ const Navbar = () => {
                     </div>
                     {/* قائمة الروابط */}
                     <div className="hidden lg:flex">
-                        <Link to="/" className="hover:text-gray-400  transition duration-200">
+                        <Link to="/" className="hover:text-gray-400 font-black transition duration-200">
                             الرئيسية
                         </Link>
-                        <Link to="/" className="hover:text-gray-400 mx-5 transition duration-200">
+                        <Link to="/" className="hover:text-gray-400 font-black mx-5 transition duration-200">
                             عن الدكتور
                         </Link>
                         {/* الخدمات */}
@@ -68,7 +68,7 @@ const Navbar = () => {
                             onMouseEnter={() => setDropdownOpen(true)}
                             onMouseLeave={() => setDropdownOpen(false)}
                         >
-                            <button className="hover:text-gray-400 mx-5 transition duration-200 flex items-center">
+                            <button className="hover:text-gray-400 font-black mx-5 transition duration-200 flex items-center">
                                 الخدمات
                                 <i className="fa-solid mx-4 fa-caret-up fa-rotate-180"></i>
                             </button>
@@ -166,16 +166,16 @@ const Navbar = () => {
                             )}
                         </div>
 
-                        <Link to="/" className="hover:text-gray-400 mx-5 transition duration-200">
+                        <Link to="/" className="hover:text-gray-400 font-black mx-5 transition duration-200">
                             فيديوهات
                         </Link>
-                        <Link to="/" className="hover:text-gray-400 mx-5 transition duration-200">
+                        <Link to="/" className="hover:text-gray-400 font-black mx-5 transition duration-200">
                             المقالات
                         </Link>
-                        <Link to="/" className="hover:text-gray-400 mx-5 transition duration-200">
+                        <Link to="/" className="hover:text-gray-400 font-black mx-5 transition duration-200">
                             اتصل بنا
                         </Link>
-                        <Link to="/" className="hover:text-gray-400 mx-5 transition duration-200">
+                        <Link to="/" className="hover:text-gray-400 font-black mx-5 transition duration-200">
                             احجز الآن
                         </Link>
                     </div>

@@ -8,7 +8,7 @@ function SocialMediaLinks() {
 
     return (
         <React.Fragment>
-            <div className="fixed top-[85%] left-10 z-50">
+            <div className="fixed top-[85%] left-7 z-50">
                 <div className="absolute bottom-0 -left-5  flex flex-col items-center">
 
 
@@ -31,7 +31,7 @@ function SocialMediaLinks() {
                     </span>
                 </div>
             </div>
-            <div className="fixed bottom-10 right-[12rem] z-50">
+            <div className="fixed bottom-10 right-[11rem] z-50">
                 <div className="absolute -top-10 -left-[30px] flex items-center group">
                     {/* الزر الأخضر */}
                     <span
@@ -42,7 +42,7 @@ function SocialMediaLinks() {
                     </span>
 
                     {/* النص المتغير */}
-                    <span className="relative shadow-lg bg-white px-3 p-2 rounded-xl mx-3 w-[7rem] text-center transition-all duration-300">
+                    <span className="relative shadow-lg bg-white px-3 p-2 rounded-xl ms-5 w-[7rem] text-center transition-all duration-300">
                         <span className="aft group-hover:hidden">
                             Contact us
                         </span>
