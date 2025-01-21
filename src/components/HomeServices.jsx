@@ -49,38 +49,38 @@ function HomeServices() {
                     modules={[Navigation, Pagination]}
                 >
                     <SwiperSlide>
-                        <div className="shadow-xl p-5 bg-white rounded-xl">
-                            <img src={image1} className="rounded-lg h-[15rem] object-cover" alt="Image 1" />
+                        <div className="shadow-xl lg:p-5 p-0 bg-white rounded-xl">
+                            <img src={image1} className="rounded-lg h-[15rem] object-contain" alt="Image 1" />
                             <p className="text-[17px] font-black text-center p-5">كونتورا ليزك</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="shadow-xl p-5 bg-white rounded-xl">
-                            <img src={image2} className="rounded-lg h-[15rem] object-cover" alt="Image 2" />
+                        <div className="shadow-xl lg:p-5 p-0 bg-white rounded-xl">
+                            <img src={image2} className="rounded-lg h-[15rem] object-contain" alt="Image 2" />
                             <p className="text-[17px] font-black text-center p-5">عملية الفيمتو سمايل</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="shadow-xl p-5 bg-white rounded-xl">
-                            <img src={image3} className="rounded-lg h-[15rem] object-cover" alt="Image 3" />
+                        <div className="shadow-xl lg:p-5 p-0 bg-white rounded-xl">
+                            <img src={image3} className="rounded-lg h-[15rem] object-contain" alt="Image 3" />
                             <p className="text-[17px] font-black text-center p-5">الفحص الدوري والحفاظ على سلامة العين</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="shadow-xl p-5 bg-white rounded-xl">
-                            <img src={image4} className="rounded-lg h-[15rem] object-cover" alt="Image 4" />
+                        <div className="shadow-xl lg:p-5 p-0 bg-white rounded-xl">
+                            <img src={image4} className="rounded-lg h-[15rem] object-contain" alt="Image 4" />
                             <p className="text-[17px] font-black text-center p-5">عملية الليزك</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="shadow-xl p-5 bg-white rounded-xl">
-                            <img src={image5} className="rounded-lg h-[15rem] object-cover" alt="Image 5" />
+                        <div className="shadow-xl lg:p-5 p-0 bg-white rounded-xl">
+                            <img src={image5} className="rounded-lg h-[15rem] object-contain" alt="Image 5" />
                             <p className="text-[17px] font-black text-center p-5">الفيمتو ليزك</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="shadow-xl p-5 bg-white rounded-xl">
-                            <img src={image6} className="rounded-lg h-[15rem] object-cover" alt="Image 6" />
+                        <div className="shadow-xl lg:p-5 p-0 bg-white rounded-xl">
+                            <img src={image6} className="rounded-lg h-[15rem] object-contain" alt="Image 6" />
                             <p className="text-[17px] font-black text-center p-5">كونتورا ليزك</p>
                         </div>
                     </SwiperSlide>
